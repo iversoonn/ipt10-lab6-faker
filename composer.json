@@ -1,0 +1,20 @@
+{
+    "name": "aufccs/person-data-generator",
+    "description": "Simple person data generator php file",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aufccs\\PersonDataGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iverson David"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
